@@ -51,7 +51,7 @@ Once you are done adding the peptides to analyze, you can quit the program and c
 
 It should look like this: 
 
-<img src="https://raw.githubusercontent.com/ying-li-python/peptide-search/master/Images/results.png"> 
+<img src="https://raw.githubusercontent.com/ying-li-python/peptide-search/master/Images/output.png"> 
 
 And you're done! 
 
