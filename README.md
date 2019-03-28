@@ -7,12 +7,13 @@ In an effort to make proteomic analysis more efficient, I wrote a Python program
 
 ## Prerequisites
 - Python3
+- FASTA file of your target/reference sequence 
 
 ## Resources 
 - Peptides of PERIOD (*Drosophila melanogaster*) were used as examples from my [*Plos Genetics* paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007953)
 
 ## Getting started 
-Assuming that you already have annotated your target/reference protein from the MS data, the entire protein sequence in the FASTA file should be in one line. For additional guidance, please visit my [tutorial](https://creativepython.wordpress.com/2019/03/27/biologyhelp-fix-fasta-indentation-in-python/) or my [fasta-fix](https://github.com/ying-li-python/fasta-fix) repository. 
+The entire protein sequence in your FASTA file should be in one line. For additional guidance, please visit my [tutorial](https://creativepython.wordpress.com/2019/03/27/biologyhelp-fix-fasta-indentation-in-python/) or my [fasta-fix](https://github.com/ying-li-python/fasta-fix) repository. 
 
 Clone the repository from github and go into the peptide-search folder in terminal.
 ```
