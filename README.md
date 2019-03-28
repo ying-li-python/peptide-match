@@ -33,7 +33,7 @@ open peptides.py
 3. Please replace the name of example FASTA file to your FASTA file. Save the changes. 
 
 ## Running the script 
-Before running the script, please do steps 1-3 to confirm that the reference protein is correct for peptide analysis.
+Please do steps 1-3 to confirm that the reference protein sequence is correct before your peptide analysis.
 
 Run the script in terminal
 ```
