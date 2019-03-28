@@ -95,7 +95,7 @@ def peptideSearch(peptide, phospho_site):
             with open('peptideSearch_output.csv', 'a') as csvfile: 
 
                 # initiate csvwriter 
-                peptide_writer = csv.writer(csvfile)
+                peptide_writer = csv.writer(csvfile, delimiter=',')
 
                 # write the results to each row for every peptide entered
                 peptide_writer.writerows(peptide_search_results)
