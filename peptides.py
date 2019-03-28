@@ -65,13 +65,19 @@ def peptideSearch(peptide, phospho_site):
         
         # create conditional if peptide matches
         if match: 
-            # store start and end position of the reference sequence 
+
+            # create variable to store the location of start and end position 
             start_position = match.start()
-            start_list.append(start_position)
-
             end_position = match.end()
-            end_list.append(end_position)
 
+            # add 1 to start and end position to correct indexing 
+            start_position = int(start_position) + 1
+            end_position = int(end_position) + 1
+
+            # add results to list 
+            start_list.append(start_position)
+            end_list.append(end_position)
+            
             # calculate the phosphorylation site 
             if int(phospho_site) > 0: 
                 phospho_position = start_position + phospho_site
