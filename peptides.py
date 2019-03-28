@@ -80,7 +80,7 @@ def peptideSearch(peptide, phospho_site):
             
             # calculate the phosphorylation site 
             if int(phospho_site) > 0: 
-                phospho_position = start_position + phospho_site
+                phospho_position = (start_position - 1) + phospho_site
                 p_site_list.append(phospho_position)
 
             # if 0 is entered, return "None"
