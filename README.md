@@ -5,6 +5,9 @@ Proteomics data is so common, why is there no program available to help research
 
 In an effort to make proteomic analysis more efficient, I wrote a Python program that, no matter how MS data has been processed, you can match the peptide location and the PTM site to against a reference protein sequence. And, most importantly, your analysis is recorded and stored in a new a csv file.
 
+## Featured 
+I wrote a step-by-step Python [tutorial](https://creativepython.wordpress.com/2019/03/29/biologypython-peptide-match-for-ptm-site-identification-with-python-tutorial/) if you want to learn how I made it.
+
 ## Prerequisites
 - Python3
 - FASTA file of your target/reference sequence 
