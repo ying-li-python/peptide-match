@@ -21,17 +21,17 @@ Good luck!
 from peptides import peptideSearch
 import csv 
 
-# create variable for while loop 
-ans = "y"
-
-# create variable to store list of peptides entered by user 
-peptide_list = []
-
 
 # create a new csv file and write header rows 
 with open('peptideSearch_output.csv', 'w') as csvfile: 
     writer = csv.writer(csvfile)
     writer.writerow(["Peptide Sequence", "Start", "End", "PTM Site"])
+
+# create variable for while loop 
+ans = "y"
+
+# create variable to store list of peptides entered by user 
+peptide_list = []
 
 # while loop for user to enter peptide sequence and phosphorylation site 
 while ans == "y": 
@@ -40,7 +40,7 @@ while ans == "y":
     peptide_count = len(peptide_list)
 
     # set conditional that once one peptide has been entered, it will track the number of peptides entered 
-    if len(peptide_list) > 0: 
+    if peptide_count > 0: 
         print(f"The number of peptides you have analyzed: {peptide_count}")
 
     # asks user for peptide sequence 
