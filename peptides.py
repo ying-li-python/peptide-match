@@ -1,6 +1,6 @@
 """
 This is the core part of the Python program. I created nested functions where the 
-first function reads the FASTA file as a reference sequence wnd the second is the 
+first function reads the FASTA file as a reference sequence and the second is the 
 peptide match and records each output on a new line in the csv file. 
 
 REQUIREMENTS
@@ -18,7 +18,7 @@ def peptideSearch(peptide, phospho_site):
         # create variable to store reference sequence 
         ref_seq = ''
 
-        # open FASTA file, please change accordingly 
+        # open your FASTA file
         fastaFile = open("period.fasta", 'r')
 
         # create for loop 
