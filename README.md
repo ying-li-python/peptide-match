@@ -3,14 +3,12 @@ Trying piece together peptide sequences and locating PTM sites from proteomics M
 
 Proteomics data is so common, why is there no program available to help researchers find where the peptide sequence lies on the protein and identify a PTM site? 
 
-## Flask App
-- [Peptide-match](https://peptide-match.herokuapp.com/) web app has been deployed on Heroku for your convenience
-
-## Running remotely
-- Alternatively, this folder contains the Python program that can be ran in terminal, and your analysis is recorded and stored in a new a csv file (see below)
-
 ## Featured 
-- I wrote a step-by-step Python [tutorial](https://creativepython.wordpress.com/2019/03/29/biologypython-peptide-match-for-ptm-site-identification-with-python-tutorial/) if you want to learn how I made it.
+- [Peptide-match](https://peptide-match.herokuapp.com/), an alternative web-based app for peptide match and locating PTM sites
+- Step-by-step [tutorial](https://creativepython.wordpress.com/2019/03/29/biologypython-peptide-match-for-ptm-site-identification-with-python-tutorial/) if you want to learn how I wrote the program
+
+## Introduction
+This folder contains the Python program that can be ran in terminal, and your analysis is recorded and stored in a new a csv file.
 
 ## Prerequisites
 - Python3
