@@ -22,8 +22,8 @@ The entire protein sequence in your FASTA file should be in one line. For additi
 
 Clone the repository from github and go into the peptide-search folder in terminal.
 ```
-git clone https://github.com/ying-li-python/peptide-search.git
-cd peptide-search 
+git clone https://github.com/ying-li-python/identify-PTMs-by-peptide-match.git
+cd identify-PTMs-by-peptide-match
 ```
 
 ## Instructions 
@@ -47,7 +47,7 @@ python main.py
 
 You should see: 
 
-<img src="https://raw.githubusercontent.com/ying-li-python/peptide-search/master/Images/terminal.png">
+<img src="https://raw.githubusercontent.com/ying-li-python/identify-PTMs-by-peptide-match/master/Images/terminal.png">
 
 You will be asked to enter a peptide sequence and the location of a phosphorylation site on the peptide. If you do not have a PTM site, enter 0.
 
