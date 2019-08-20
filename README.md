@@ -1,4 +1,4 @@
-# Identify PTMs by peptide match
+# Identify PTMs by peptide match [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 Trying piece together peptide sequences and locating PTM sites from proteomics MS data is time-consuming and repeatitive. 
 
 Proteomics data is so common, why is there no program available to help researchers find where the peptide sequence lies on the protein and identify a PTM site? 
