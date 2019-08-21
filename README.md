@@ -22,8 +22,8 @@ The entire protein sequence in your FASTA file should be in one line. For additi
 
 Clone the repository from github and go into the peptide-search folder in terminal.
 ```
-git clone https://github.com/ying-li-python/identify-PTMs-by-peptide-match.git
-cd identify-PTMs-by-peptide-match
+git clone https://github.com/ying-li-python/peptide-match.git
+cd peptide-match
 ```
 
 ## Instructions 
